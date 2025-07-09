@@ -1,0 +1,23 @@
+// This task compiles all Java files in the src directory and outputs the class files to the bin directory.
+// It uses PowerShell to find all .java files recursively and compiles them using javac
+
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile All Java to /bin",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-Command",
+        "Get-ChildItem -Recurse -Filter *.java -Path src | ForEach-Object { javac -d bin $_.FullName }"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$javac"]
+    }
+  ]
+}
