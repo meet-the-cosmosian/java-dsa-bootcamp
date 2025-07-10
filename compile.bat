@@ -1,7 +1,5 @@
 @echo off
 echo 🚀 Compiling all Java files...
-for /R src %%f in (*.java) do (
-    javac -d bin "%%f"
-)
+javac -d bin -sourcepath src src/meet_java_fundamentals/**/*.java
 echo ✅ Compilation complete.
 pause

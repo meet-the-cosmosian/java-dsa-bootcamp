@@ -3,38 +3,20 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Run Current Java File",
+      "name": "Q1_MeaningfulVariables",
       "request": "launch",
-      "mainClass": "${fileBasenameNoExtension}",
-      "vmArgs": "-cp bin"
+      "mainClass": "meet_java_fundamentals.variables_datatypes.Q1_MeaningfulVariables",
+      "projectName": "Java_61f7dece"
     },
     {
       "type": "java",
-      "name": "FirstProgram",
+      "name": "▶️ Java: Run File with Package",
       "request": "launch",
-      "mainClass": "FirstProgram",
-      "vmArgs": "-cp bin"
-    },
-    {
-      "type": "java",
-      "name": "operations",
-      "request": "launch",
-      "mainClass": "operations",
-      "vmArgs": "-cp bin"
-    },
-    {
-      "type": "java",
-      "name": "output",
-      "request": "launch",
-      "mainClass": "output",
-      "vmArgs": "-cp bin"
-    },
-    {
-      "type": "java",
-      "name": "quiz",
-      "request": "launch",
-      "mainClass": "quiz",
-      "vmArgs": "-cp bin"
+      "mainClass": "meet_java_fundamentals.${relativeFileDirname:replace(src/meet_java_fundamentals/,):replace(/,.)}.${fileBasenameNoExtension}",
+      "cwd": "${workspaceFolder}",
+      "classPaths": [
+        "bin"
+      ]
     }
   ]
 }
