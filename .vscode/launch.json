@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Q2_MonthNamePrinter",
+      "request": "launch",
+      "mainClass": "meet_java_fundamentals.conditional_statements.Q2_MonthNamePrinter",
+      "projectName": "Java_61f7dece"
+    },
+    {
+      "type": "java",
+      "name": "Q1_CalculatorWithSwitch",
+      "request": "launch",
+      "mainClass": "meet_java_fundamentals.conditional_statements.Q1_CalculatorWithSwitch",
+      "projectName": "Java_61f7dece"
+    },
+    {
+      "type": "java",
+      "name": "Q3_PrintTable",
+      "request": "launch",
+      "mainClass": "meet_java_fundamentals.variables_datatypes.Q3_PrintTable",
+      "projectName": "Java_61f7dece"
+    },
+    {
+      "type": "java",
+      "name": "Q2_CircleAreaPerimeter",
+      "request": "launch",
+      "mainClass": "meet_java_fundamentals.variables_datatypes.Q2_CircleAreaPerimeter",
+      "projectName": "Java_61f7dece"
+    },
+    {
+      "type": "java",
       "name": "Q1_MeaningfulVariables",
       "request": "launch",
       "mainClass": "meet_java_fundamentals.variables_datatypes.Q1_MeaningfulVariables",

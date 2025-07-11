@@ -1,4 +1,4 @@
-package meet_java_fundamentals.variables_datatypes;
+package meet_java_fundamentals.L02_variables_datatypes;
 
 class VariablesDemo {
     public static void main(String[] args) {
